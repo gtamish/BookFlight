@@ -1,2 +1,1 @@
-# projects
-Book Flights at your desired price.
+# Book Flights at your desired price.
