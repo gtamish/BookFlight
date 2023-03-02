@@ -11,26 +11,33 @@
         <h1>Book Flights</h1>
     </section>
     <div>
-        <h3>Fill below form</h3>
+        <h2>Fill below form</h2>
         <form action="">
-            <label for="fname">First Name</label><input type="text" name="" id=""><br>
-            <label for="lname">Last Name</label><input type="text" name="" id=""><br>
+            <h3>Passenger details</h3>
+            <label for="fname">First Name</label><input type="text" name="" id="" placeholder="Amish"><br>
+            <label for="lname">Last Name</label><input type="text" name="" id="" placeholder="Gautam"><br>
             <label for="gender">Gender</label><select name="" id="">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
                 <option value="Others">Others</option>
             </select><br>
-            <label for="dob">Date of Birth</label><input type="date" name="" id=""><br>
-            <label for="phone">Phone Number</label><input type="number" name="" id=""><br>
-            <label for="email">Email ID</label><input type="email" name="" id=""><br>
+            <label for="dob">Date of Birth</label><input type="date" name="" id="" placeholder="28/03/2003"><br>
+            <label for="phone">Phone Number</label><select name="" id="">
+                <option value="+91">+91(India)</option>
+            </select><input type="number" name="" id="" placeholder="8287190848"><br>
+            <label for="email">Email ID</label><input type="email" name="" id="" placeholder="amishgautam200@gmail.com"><br>
+
+            <h3>Set your price</h3>
+            <label for="price">Price</label><input type="range" name="Price" id="sel_price" min="0" max="10000" step="500"><output id="value"></output>
+            
+            <h3>Card details</h3>
+            <label for="cardNumber">Card Number</label><input type="number" name="" id=""><br>
+            <label for="cardHolderName">Card Holder Name</label><input type="text" name="" id=""><br>
+            <label for="cardExpiriy">Valid Thru</label><input type="month" name="" id=""><br>
+            <label for="cardCvv">CVV</label><input type="number" name="" id=""><br><br>
+
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
-        </form>
-    </div>
-    <div>
-        <form action="">
-            <label for="price">Set Price</label><input type="range" name="Price" id="sel_price" min="0" max="10000" step="500">
-            <p>Price: <output id="value"></output></p>
         </form>
     </div>
 
